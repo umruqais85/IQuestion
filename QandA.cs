@@ -11,10 +11,10 @@ namespace CSharp_Shell
         public static void Main()
         {
         	Console.WriteLine("each answer of its Type");
-			anyType.here.start();
-			Console.WriteLine();
-			Console.WriteLine("all answers of string");
-			OnlyString.here.start();
+		anyType.here.start();
+		Console.WriteLine();
+		Console.WriteLine("all answers of string");
+		OnlyString.here.start();
         }
         
     }
