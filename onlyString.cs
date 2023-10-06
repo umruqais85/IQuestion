@@ -11,25 +11,25 @@ namespace OnlyString
         public static void start()
         {
         	IQuestion q1=new stringQuestion();
-			q1.setinfo("عاصمة العراق","بغداد");
-			IQuestion q2=new mathDblQuestion();
-			q2.setinfo("5/2",((double)5/2).ToString());
-			IQuestion q3=new mathIntQuestion();
-			q3.setinfo("5+6",(5+6).ToString());
-			
-			bool f;
-			Console.WriteLine("start");
-			while(true)
-			{
-				f=askandcheck(q1);
-				if(!f) break;
-				f=askandcheck(q2);
-				if(!f) break;
-				f=askandcheck(q3);
-				if(!f) break;
-			}
-			Console.WriteLine("end");
-			
+		q1.setinfo("عاصمة العراق","بغداد");
+		IQuestion q2=new mathDblQuestion();
+		q2.setinfo("5/2",((double)5/2).ToString());
+		IQuestion q3=new mathIntQuestion();
+		q3.setinfo("5+6",(5+6).ToString());
+		
+		bool f;
+		Console.WriteLine("start");
+		while(true)
+		{
+			f=askandcheck(q1);
+			if(!f) break;
+			f=askandcheck(q2);
+			if(!f) break;
+			f=askandcheck(q3);
+			if(!f) break;
+		}
+		Console.WriteLine("end");
+		
         }
         public static bool askandcheck(IQuestion q)
         {
