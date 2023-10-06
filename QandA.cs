@@ -15,6 +15,7 @@ namespace CSharp_Shell
 		Console.WriteLine();
 		Console.WriteLine("all answers of string");
 		OnlyString.here.start();
+		OnlyString.here.start2();
         }
         
     }
